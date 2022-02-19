@@ -1,0 +1,10 @@
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\bin\Debug\Winform Calculator.exe.config
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\bin\Debug\Winform Calculator.exe
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\bin\Debug\Winform Calculator.pdb
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform Calculator.csprojAssemblyReference.cache
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform_Calculator.Form1.resources
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform_Calculator.Properties.Resources.resources
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform Calculator.csproj.GenerateResource.cache
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform Calculator.csproj.CoreCompileInputs.cache
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform Calculator.exe
+D:\Visual studio community\Visual Studio 2019\Winform Calculator\Winform Calculator\obj\Debug\Winform Calculator.pdb
