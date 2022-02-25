@@ -1,7 +1,0 @@
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.exe.config
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.exe
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.pdb
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.exe
-D:\Visual studio community\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.pdb
