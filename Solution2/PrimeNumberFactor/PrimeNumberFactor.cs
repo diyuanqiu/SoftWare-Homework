@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-namespace 课堂练习{
+namespace testClass{
     class PrimeNumberFactor{
         static void Main(string[] args){
             Console.WriteLine("Please input the data you want to get the prime number factors:");
