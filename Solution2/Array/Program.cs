@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-namespace 课堂练习2{
+namespace testClass{
     class Array{
         static void Main(string[] args){
             int displayNumber = 0;
