@@ -1,0 +1,11 @@
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.AssemblyReference.cache
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.SuggestedBindingRedirects.cache
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.Form1.resources
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.Properties.Resources.resources
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.GenerateResource.cache
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.csproj.CoreCompileInputs.cache
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe.config
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\bin\Debug\CayleyTree.exe
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\bin\Debug\CayleyTree.pdb
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.exe
+D:\学习包裹\软件设计\软件建设需求\Solution7\CayleyTree\CayleyTree\obj\Debug\CayleyTree.pdb
