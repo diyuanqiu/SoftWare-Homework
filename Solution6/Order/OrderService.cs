@@ -21,6 +21,9 @@ namespace Order
             {
                 throw new Exception("The adding order is null.");
             }
+            if (orders.Contains(order)) {
+                throw new ApplicationException($"the order {order.orderNo} already exists!");
+            }
             orders.Add(order);
         }
         public void deleteOrder(Order order) // int orderNo
@@ -87,23 +90,29 @@ namespace Order
                         select s;
             return query.ToList();
         }
-        public void Export()
+        public void Export(String filename)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Order>));
-            using (FileStream fs = new FileStream("Orders.xml", FileMode.Create))
+            using (FileStream fs = new FileStream(filename, FileMode.Create))
             {
                 xmlSerializer.Serialize(fs, orders);
             }
             Console.WriteLine("\nSerialized as XML:");
             Console.WriteLine(File.ReadAllText("Orders.xml"));
         }
-        public void Import()
+        public void Import(string path)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Order>));
-            using (FileStream fs = new FileStream("Orders.xml", FileMode.Open))
+            using (FileStream fs = new FileStream(path, FileMode.Open))
             {
-                orders = (List<Order>)xmlSerializer.Deserialize(fs);
-                Console.WriteLine("\nDeserialized from Orders.xml");
+                List<Order> temp = (List<Order>)xmlSerializer.Deserialize(fs);
+                temp.ForEach(order =>
+                {
+                    if (!orders.Contains(order))
+                    {
+                        orders.Add(order);
+                    }
+                });
             }
         }
     }
