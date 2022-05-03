@@ -1,4 +1,5 @@
 ﻿using System;
+using MySql.Data.EntityFramework;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace OrderSystem
 {
+    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class OrderContext : DbContext
     {
         public OrderContext() : base("OrderSystemDB")
