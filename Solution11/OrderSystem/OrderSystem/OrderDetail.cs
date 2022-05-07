@@ -25,8 +25,7 @@ namespace OrderSystem
         }
         public double orderPrice
         {
-            get { return Good.Price*Quantity; }
-            set { }
+            get => Good==null?0.0: Good.Price * Quantity;
         }
         public override string ToString()
         {
