@@ -16,13 +16,8 @@ namespace OrderSystem
         [ForeignKey("ClientId")]
         public Client Client { get; set; }
         public List<OrderDetail> Details { get; set; }
-        public double totalPrice
-        {
-            get
-            {
-                return Details.Sum(orderDetail => orderDetail.orderPrice);
-            }
-            set { }
+        public double TotalPrice {
+            get => Details.Sum(item => item.orderPrice);
         }
         public Order() { }
         public Order(int id,Client client, List<OrderDetail> details)
